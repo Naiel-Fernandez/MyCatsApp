@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.DetailFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#009688">
+
+        <ImageView
+            android:id="@+id/imgCat"
+            android:layout_width="172dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="100dp"
+            android:contentDescription="@string/imgCat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck"
+            tools:src="@tools:sample/avatars[3]"
+            tools:srcCompat="@tools:sample/avatars[3]" />
+
+        <TextView
+            android:id="@+id/txtDetailName"
+            android:layout_width="215dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/txtdetailname"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgCat" />
+
+        <TextView
+            android:id="@+id/txtDetailRace"
+            android:layout_width="214dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/txtdetailrace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtDetailName" />
+
+        <TextView
+            android:id="@+id/txtDetailColor"
+            android:layout_width="215dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/txtdetailcolor"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtDetailRace" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

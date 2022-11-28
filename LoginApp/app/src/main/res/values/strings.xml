@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Cats Disco</string>
+
+    <string name="LoginUsername">Username</string>
+    <string name="LoginPassword">Password</string>
+    <string name="LoginButton">Login</string>
+    <string name="CorrectLogin">Correct Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Cat_Name">Cat Name</string>
+    <string name="Cat_Race">Cat Race</string>
+    <string name="Cat_Color">Cat Color</string>
+    <string name="Formulari">Formulari</string>
+    <string name="raza">Raza</string>
+    <string name="color">Color</string>
+    <string name="Send">Insertar</string>
+    <string name="imglogin">imgLogin</string>
+    <string name="imgCat">imgCat</string>
+    <string name="btnDelete">DELETE</string>
+    <string name="txtdetailrace">txtDetailRace</string>
+    <string name="txtdetailcolor">txtDetailColor</string>
+    <string name="txtdetailname">txtDetailName</string>
+    <string name="delete_database">Delete Database</string>
+</resources>

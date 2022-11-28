@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/formulariLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:textAlignment="center"
+    tools:context=".Fragment.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="411dp"
+            android:layout_height="91dp"
+            android:width="30dp"
+            android:background="#0A5750"
+            android:text="@string/Formulari"
+            android:textAlignment="center"
+            android:textColor="#DDD9D9"
+            android:textSize="40sp"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtCatName"
+            android:layout_width="286dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="69dp"
+            android:autofillHints=""
+            android:background="@drawable/custom_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="@string/Cat_Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/txtCatRace"
+            android:layout_width="286dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:autofillHints=""
+            android:background="@drawable/custom_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="@string/Cat_Race"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtCatName" />
+
+        <EditText
+            android:id="@+id/txtCatColor"
+            android:layout_width="286dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:autofillHints=""
+            android:background="@drawable/custom_input"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="@string/Cat_Color"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtCatRace" />
+
+        <Button
+            android:id="@+id/btnInsert"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="159dp"
+            android:text="@string/Send"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtCatColor" />
+
+        <TextView
+            android:id="@+id/lblFormulariResult"
+            android:layout_width="315dp"
+            android:layout_height="74dp"
+            android:layout_marginTop="18dp"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnInsert" />
+
+        <Button
+            android:id="@+id/btmDeleteDatabase"
+            android:layout_width="231dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="11dp"
+            android:text="@string/delete_database"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblFormulariResult" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
